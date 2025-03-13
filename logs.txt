@@ -1,0 +1,674 @@
+libSQLDBCHDB 2.23.27.1738012173
+SYSTEM: OS X / AARCH64
+BUILD AT: 2025-01-28 22:55:50
+BRANCH: unknown
+BUILD MODE: rel
+APPLICATION: node
+HOST: MSGMAC-X97LJDQGCY
+OS USER: payann
+CURRENT DIRECTORY: /Users/payann/Documents/ace/cds8/hana-client-test
+TRACE FILE NAME: 
+PROCESS ID: 8174
+TRACE FILE WRAP COUNT: 0
+
+---
+Enabled Traces:
+
+SQL Trace: Level DEBUG
+Distribution Trace: Level DEBUG
+API Trace: Level DEBUG
+Flush Trace
+
+---
+Tracing connection 1 to output buffer, size: 65536.
+
+::CONNECT 2025-03-13 08:56:39.431888 [0x000000014f023000]
+REQUESTED PROPERTIES:
+  ALLOWFETCHWARNINGS: 1
+  CHOPBLANKS: 0
+  CURRENTSCHEMA: DCE6C899AF5640709AE037ACA59DFAED
+  ISOLATIONLEVEL: 1
+  LOBLOCATOR0FULLVALUE: 1
+  SCROLLABLERESULT: 0
+  SPATIALTYPES: 0
+
+[AUTH] SETTING EXTERNAL USERNAME WITH AN NTS VALUE, ENCODING: UTF8
+[AUTH] SETTING EXTERNAL PASSWORD WITH AN NTS VALUE, ENCODING: UTF8
+LOCATION: 'bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com:443'
+DATABASE: ''
+USER    : 'DCE6C899AF5640709AE037ACA59DFAED_5M3DPSGZRG5GUA54N6M7QZMRE_RT'
+PASSWORD: ***
+PROTOCOL: TCP
+LOCATION IS USING PORT 443, AUTOMATICALLY ENABLING ENCRYPTION
+CONNECT PROPERTIES:
+  ALLOWFETCHWARNINGS: 1
+  CACHEDVIEWTS: 1
+  CHOPBLANKS: 0
+  COMPLETEARRAYEXECUTION: 1
+  CURRENTSCHEMA: DCE6C899AF5640709AE037ACA59DFAED
+  CURRENTUSER: DCE6C899AF5640709AE037ACA59DFAED_5M3DPSGZRG5GUA54N6M7QZMRE_RT
+  DISTRIBUTION: STATEMENT
+  ENCRYPT: 1
+  ISOLATIONLEVEL: 1
+  LARGENUMBEROFPARAMETERSUPPORT: 1
+  LOBLOCATOR0FULLVALUE: 1
+  SCROLLABLERESULT: 0
+  SPATIALTYPES: 0
+
+HOST LIST : bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com:443
+HOST LIST LENGTH : 1
+HOST : 1
+CONNECT TO: bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com:443
+CONNECTION URL: ngdb:remote://bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com:443/
+  ALLOWFETCHWARNINGS: 1
+  CACHEDVIEWTS: 1
+  CHOPBLANKS: 0
+  COMPLETEARRAYEXECUTION: 1
+  CURRENTSCHEMA: DCE6C899AF5640709AE037ACA59DFAED
+  CURRENTUSER: DCE6C899AF5640709AE037ACA59DFAED_5M3DPSGZRG5GUA54N6M7QZMRE_RT
+  DISTRIBUTION: STATEMENT
+  ENCRYPT: 1
+  ISOLATIONLEVEL: 1
+  LARGENUMBEROFPARAMETERSUPPORT: 1
+  LOBLOCATOR0FULLVALUE: 1
+  SCROLLABLERESULT: 0
+  SPATIALTYPES: 0
+
+System call 'connect' succeeded: 192.168.0.78:64822 -> bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com:443
+ADDRESS RESOLVED TO: 20.8.134.52
+The connection took 23 milliseconds and 1 attempt(s)
+STARTING SSL INIT & HANDSHAKE 2025-03-13 08:56:39.485918
+DONE SSL INIT & HANDSHAKE 2025-03-13 08:56:39.566093
+::PHYSICAL CONNECTION OPEN 2025-03-13 08:56:39.588980 [0x000000014f027600]
+CONNECTION HANDLE : [0x000000014f028200]
+SERVER            : bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com:443
+PACKET SIZE       : 1048576
+CONNECTION OBJECT : [0x000000014f023000]
+Connection::connect(), getPhysicalConnection succeeded
+SYSTEM REPLICATION ANCHOR SYSTEM TYPE: [NO SITE]
+[AUTH] INITIAL TIMEOUT: 60000
+[AUTH] INITIAL EVAL STATUS: 0
+[AUTH] SETTING USERNAME WITH A VALUE
+[AUTH] USERNAME BYTES?: YES
+[AUTH] SETTING PASSWORD WITH A VALUE
+[AUTH] PASSWORD BYTES?: YES
+[AUTH] SET LOGON NAME
+[AUTH] NOT USING A SESSION COOKIE
+[AUTH] SET VERIFIER WITH PASSWORD WITH SOME BYTES
+[AUTH] CALLING EVALUATE
+[AUTH] EVALUATING WILL CONTINUE
+[AUTH] UPDATED EVAL STATUS: 2
+::CLOUD CONNECT REDIRECTION - RECONNECTING TO CLOUD NODE [bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com:443]
+[AUTH] RESET EVAL STATUS
+USER                : 'DCE6C899AF5640709AE037ACA59DFAED_5M3DPSGZRG5GUA54N6M7QZMRE_RT'
+Connection::connect(), doConnection failed with error and a redirect target
+::PHYSICAL CONNECTION CLOSE 2025-03-13 08:56:39.614343 [0x000000014f027600]
+CLOSING SERVER CONNECTION ID: -1
+NUM RECV ON PCONN: 0, SUM RECV TIME: 0 MSEC
+DATA RECV ON PCONN: 0.00 MB
+NUM SEND ON PCONN: 0, SUM SEND TIME: 0 MSEC
+DATA SENT ON PCONN: 0.00 MB
+SERVER PROCESSING TIME ON PCONN: 0 MSEC
+Closed socket handle 2025-03-13 08:56:39.615735
+HOST : 1
+CONNECT TO: bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud
+.ondemand.com:443
+CONNECTION URL: ngdb:remote://bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com:443/
+  ALLOWFETCHWARNINGS: 1
+  CACHEDVIEWTS: 1
+  CHOPBLANKS: 0
+  COMPLETEARRAYEXECUTION: 1
+  CURRENTSCHEMA: DCE6C899AF5640709AE037ACA59DFAED
+  CURRENTUSER: DCE6C899AF5640709AE037ACA59DFAED_5M3DPSGZRG5GUA54N6M7QZMRE_RT
+  DISTRIBUTION: STATEMENT
+  ENCRYPT: 1
+  ISOLATIONLEVEL: 1
+  LARGENUMBEROFPARAMETERSUPPORT: 1
+  LOBLOCATOR0FULLVALUE: 1
+  SCROLLABLERESULT: 0
+  SPATIALTYPES: 0
+  SYSTEMREPLICATION_ANCHOR_SYSTEMTYPE: 0
+
+System call 'connect' succeeded: 192.168.0.78:64823 -> bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com:443
+ADDRESS RESOLVED TO: 20.8.134.52
+The connection took 29 milliseconds and 1 attempt(s)
+STARTING SSL INIT & HANDSHAKE 2025-03-13 08:56:39.695969
+DONE SSL INIT & HANDSHAKE 2025-03-13 08:56:39.773296
+::PHYSICAL CONNECTION OPEN 2025-03-13 08:56:39.798369 [0x000000014e854600]
+CONNECTION HANDLE : [0x000000014e855200]
+SERVER            : bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com:443
+PACKET SIZE       : 1048576
+CONNECTION OBJECT : [0x000000014f023000]
+Connection::connect(), getPhysicalConnection succeeded
+SYSTEM REPLICATION ANCHOR SYSTEM TYPE: [NO SITE]
+[AUTH] INITIAL TIMEOUT: 60000
+[AUTH] INITIAL EVAL STATUS: 0
+[AUTH] SETTING USERNAME WITH A VALUE
+[AUTH] USERNAME BYTES?: YES
+[AUTH] SETTING PASSWORD WITH A VALUE
+[AUTH] PASSWORD BYTES?: YES
+[AUTH] SET LOGON NAME
+[AUTH] NOT USING A SESSION COOKIE
+[AUTH] SET VERIFIER WITH PASSWORD WITH SOME BYTES
+[AUTH] CALLING EVALUATE
+[AUTH] EVALUATING WILL CONTINUE
+[AUTH] UPDATED EVAL STATUS: 2
+PROTOCOL CONNECT OPTIONS SENT BY CLIENT:
+	CompleteArrayExecution: true
+	DataFormatVersion: 1 (0x1)
+	DataFormatVersion2: 9 (0x9)
+	LargeNumberOfParametersSupport: true
+	DistributionEnabled: true
+	ClientDistributionMode: 2 (0x2)
+	CachedViewProperty: true
+	ActiveActiveProtocolVersion: 2 (0x2)
+	ActiveActiveConnectionOriginSite: 0 (0x0)
+	SelectForUpdateSupported: true
+	CoordinatorCommitRedirectionSupported: true
+	ImplicitXASessionSupported: true
+	NonTransactionalPrepare: false
+	DistributionProtocolVersion: 6 (0x6)
+	OSUser: payann
+	UpdateTopologyAnwhere: true
+	QueryTimeoutSupported: true
+	XOpenXAProtocolSupported: true
+	FullVersionString: 2.23.27.1738012173
+	BuildPlatform: 16 (0x10)
+	Endianness: 1 (0x1)
+	CompressionLevelAndFlags: 1280 (0x500)
+	ClientSideColumnEncryptionVersion: 3 (0x3)
+	ClientSideReExecutionSupported: true
+	LRRPingTime: 0 (0x0)
+	FlagSet1: 15318175 (0xe9bc9f)
+		HoldCursorOverRollbackSupported
+		SupportDropStatementIDPart
+		SupportFullCompileOnPrepare
+		Support32BitFetchSize
+		SupportSessionContextOnSecondary
+		SupportImplicitXAJoinOnPrepare
+		SupportIdlePing
+		SupportIdlePingDuringRequest
+		LobLocator0FullValueOK
+		SupportClientRoutingInfo
+		SupportForceReroute
+		SupportSessionCookieOnSqlConnect
+		SupportSessionCookieForAllMethods_V2
+		SupportForceRerouteOnPrepare
+		SupportDisconnectSessionCookie
+		SupportSessionReattach
+	ClientLocalIP: 192.168.0.78
+	RedirectionType: 3 (0x3) [TENANTWITHAZAWARE]
+	RedirectedHost: bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com
+	RedirectedPort: 443 (0x1bb)
+	EndPointList: bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com:443
+	EndPointHost: bb529494-6259-4496-a72e-160160db95e6.hna0.prod-eu20.hanacloud.ondemand.com
+	EndPointPort: 443 (0x1bb)
+USER                : 'DCE6C899AF5640709AE037ACA59DFAED_5M3DPSGZRG5GUA54N6M7QZMRE_RT'
+SESSION ID          : 1266412630279975
+::setFlagsFromConnectionProperties 2025-03-13 08:56:39.909595 [0x000000014f023000]
+  CLIENT_SQLMODE:  INTERNAL
+  chopBlanksInput: 0
+  spaceOption:     0
+  chopBlanks:      0
+  allowFetchWarnings:1
+
+TOPOLOGY OF SYSTEM
+HSR SITE VOLUME ID C S SQLPORT SERVICE HOSTNAME (NETWORK HOST)
+----------------------------------------------------------------------------------------------------------------------
+  N    0         2 X       443   INDEX bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand
+.com(bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com) 0x000000012e709250
+  N    0      1024       30047   OTHER 100.96.218.10 0x000000012e7098b0
+
+PROTOCOL CONNECT OPTIONS RECEIVED FROM SERVER:
+	ConnectionID: 262343 (0x400c7)
+	SystemID: H00
+	DataFormatVersion: 1 (0x1)
+	DataFormatVersion2: 9 (0x9)
+	EngineDataFormatVersion: 9 (0x9)
+	SupportsLargeBulkOperations: true
+	SplitBatchCommands: true
+	FdaEnabled: true
+	ItabParameter: true
+	CompleteArrayExecution: true
+	LargeNumberOfParametersSupport: true
+	ClientDistributionMode: 2 (0x2)
+	UseTransactionFlagsOnly: true
+	IgnoreUnknownParts: 1 (0x1)
+	ClientInfoNullValueSupported: true
+	NonTransactionalPrepare: false
+	ImplicitLobStreaming: true
+	CachedViewProperty: true
+	XOpenXAProtocolSupported: true
+	ActiveActiveProtocolVersion: 2 (0x2)
+	ImplicitXASessionSupported: true
+	QueryTimeoutSupported: true
+	Endianness: 1 (0x1)
+	FullVersionString: 4.00.000.00.1739875052
+	DatabaseName: H00
+	BuildPlatform: 7 (0x7)
+	ClientSideColumnEncryptionVersion: 3 (0x3)
+	CompressionLevelAndFlags: 768 (0x300)
+	ClientReconnectWaitTimeout: 600 (0x258)
+	ClientSideReExecutionSupported: true
+	LRRPingTime: 3600 (0xe10)
+	FlagSet1: 13218211 (0xc9b1a3)
+		HoldCursorOverRollbackSupported
+		SupportDropStatementIDPart
+		SupportSavepointSQL
+		SupportImplicitXAJoinOnPrepare
+		SupportSessionContextPartOnConnect
+		LobLocator0FullValueOK
+		SupportClientRoutingInfo
+		SupportForceReroute
+		SupportSessionCookieOnSqlConnect
+		SupportSessionCookieForAllMethods_V2
+		SupportForceRerouteOnPrepare
+		SupportSessionReattach
+::CONNECTION REPLY 2025-03-13 08:56:39.909861 [0x000000014f023000]
+  SERVER CONNECTION ID: 262343
+  CLIENT CONNECTION ID: 2
+  PHYSICAL CONNECTION - [0x000000014e854600]  [CONNECTED - COORDINATOR]
+  CONNECTED AT        : 2025-03-13 08:56:39.798369
+  LOCATION            : bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com:443 [bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com]
+  SERVER CONNECTION ID: 262343
+  CLIENT CONNECTION ID: 2
+  VOLUME ID           : 2
+  SESSION ID          : 1266412630279975
+NETWORK COMPRESSION ENABLED
+ENGINE DATA FORMAT VERSION: 9
+SYSTEM REPLICATION PROTOCOL VERSION: 2
+LARGE BULK OPERATIONS SUPPORTED
+SERVER IGNORES UNKNOWN SEGMENT PARTS
+DISTRIBUTION MODE NEGOTIATED IS: STATEMENT
+BATCH COMMAND SPLIT ENABLED
+PARTITION AWARE CONNECTION SELECT ENABLED
+TRANSACTION STATUS DETECTED BY FLAGS AND FUNCTION CODE (READ TRANS)
+FAST DATA ACCESS SUPPORTED
+ABAP ITAB AS PARAMETER SUPPORTED
+SCROLLABLE RESULT SET REJECTED BY SERVER
+SERVER CAN HANDLE NULL VALUES FOR CLIENT INFO
+IMPLICIT LOB STREAMING SUPPORTED
+CACHED VIEW TIMESTAMPS SUPPORTED
+COORDINATOR COMMIT REDIRECTION UNSUPPORTED BY SERVER
+QUERY TIMEOUT SUPPORTED
+IMPLICIT XA SESSION FOR S2PC SUPPORTED
+XA TRANSACTION SUPPORTED
+INITIAL CLIENT RECONNECT WAIT TIMEOUT 600 SEC
+Secondary Session Fallback: Enabled
+DISTRIBUTION: STATEMENT
+CLIENTSIDE ENCRYPTION PROTOCOL VERSION: 3
+STALE PARAMETER RE-EXECUTE SUPPORTED
+SERVER SUPPORTS LAZY DROPPED STATEMENTS
+MAX LAZY DROPPED STATEMENTS PER PHYSICAL CONNECTION: 50
+CURSOR HOLD OVER ROLLBACK SUPPORTED: 1
+SERVER DOES NOT SUPPORT 32 bit FETCHSIZE
+IMPLICIT XA JOIN ON PREPARE SUPPORTED: 1
+SERVER SUPPORTS SESSION CONTEXT ON SECONDARY CONNECTION: 1
+SERVER SUPPORTS INPUT TABLE PARAMETER: 0
+SERVER SUPPORTS INPUT TABLE PARAMETER IMPLICIT LOB STREAMING: 0
+CLIENT ROUTING INFO SUPPORTED BY SERVER: 1
+DISCONNECT WITH SESSION COOKIE SUPPORTED BY SERVER: 0
+CONNECT SQL WITH SESSION COOKIE SUPPORTED BY SERVER: 1
+SESSION REATTACH SUPPORTED BY SERVER: 1
+Connection::connect(), doConnection succeeded
+Connection::connect(), connected to location
+OK
+ADDING ANCHOR CONNECTION
+ADDING PHYSICAL CONNECTION TO PHYSICAL CONNECTION SET
+  SITE TYPE: [NO SITE]
+  SITE: 0
+  VOLUME: 2
+  CLIENT CONNECTION ID: 2
+CURRENT SCHEMA: DCE6C899AF5640709AE037ACA59DFAED
+SERVER STATISTICS RESET OF [0x000000012f01aa00]
+
+::EXECUTE DIRECT SQLCURS_1 2025-03-13 08:56:39.910185 [0x000000012f01aa00]
+AUTCOMMIT   : FALSE
+SQL COMMAND : SET SCHEMA DCE6C899AF5640709AE037ACA59
+DFAED
+SENDING CURRENT SESSION CONTEXT TO SESSION WITH ID 1266412630279975
+  ANCHOR  CONN IS: 262343 SESSION ID: 1266412630279975
+  PRIMARY CONN IS: 262343 SESSION ID: 1266412630279975
+StatementContext PART IN REQUEST PACKET NEEDS TO BE UPDATED
+  PHYSICAL CONNECTION - [0x000000014e854600]  [CONNECTED - COORDINATOR]
+  CONNECTED AT        : 2025-03-13 08:56:39.798369
+  LOCATION            : bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com:443 [bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com]
+  SERVER CONNECTION ID: 262343
+  CLIENT CONNECTION ID: 2
+  VOLUME ID           : 2
+  SESSION ID          : 1266412630279975
+CONNECTION OBJECT : [0x000000014f023000]
+SEND TIME: 80 USEC, MESSAGE: EXECUTEDIRECT
+RECV TIME: 28161 USEC
+TRANSACTION:
+  STATE: NO TRANSACTION
+  PRIMARY: 2
+TRANSACTION ACTION TA_COMMIT
+TRANSACTION UPDATED:
+TRANSACTION:
+  STATE: NO TRANSACTION
+  PRIMARY: 2
+RECONNECT WAIT TIMEOUT: 600 SEC
+SERVER STATISTICS UPDATE OF [0x000000012f01aa00]
+  PROCESSING TIME INCREASED TO 1221 BY 1221 USEC
+  CPU TIME INCREASED TO 921 BY 921 USEC
+  PEAK MEMORY USAGE INCREASED TO 3259184 BY 0 BYTES
+RESULT COUNT: 0
+LAST ANCHOR_CONNECTION_ID 262343
+::CONNECT END 2025-03-13 08:56:39.939210 [0x000000014f023000]
+::SET AUTOCOMMIT OFF 2025-03-13 08:56:39.939223 [0x000000014f023000]
+::SET AUTOCOMMIT ON 2025-03-13 08:56:39.939238 [0x000000014f023000]
+Connection established (1 open connection)
+--- THREAD 126D179 ---
+>Napi::Connection::connectAfter [0x000000014e828a00] (2025-03-13 08:56:39.940762)
+
+<Napi::Connection::connectAfter (3706 us)
+>Napi::Connection::exec [0x000000014e828a00] (2025-03-13 08:56:39.944721)
+4 parameters: string, null, null, function
+Executing SQL: WITH ITFM4_AllocateServiceBU AS
+(
+	SELECT 
+		*,
+		( '$[' || lpad( "$$RN$$", 6, '0' ) ) AS _path_
+	FROM 
+		(
+			(SELECT 
+				*,
+				ROW_NUMBER() OVER( ORDER BY _ID ASC ) AS "$$RN$$"
+			FROM 
+				(
+					(SELECT 
+						ITFM4_AllocateServiceBU._createdAt,
+						ITFM4_AllocateServiceBU._createdBy,
+						ITFM4_AllocateServiceBU._modifiedAt,
+						ITFM4_AllocateServiceBU._modifiedBy,
+						ITFM4_AllocateServiceBU._log_ID,
+						ITFM4_AllocateServiceBU._rule_ID,
+						ITFM4_AllocateServiceBU._state,
+						ITFM4_AllocateServiceBU._ID,
+						ITFM4_AllocateServiceBU.ID,
+						ITFM4_AllocateServiceBU.PostingDate,
+						ITFM4_AllocateServiceBU.LocalCurrency_Code,
+						ITFM4_AllocateServiceBU.TaxonomyVersion_Code,
+						ITFM4_AllocateServiceBU.CostPool_Code,
+						ITFM4_AllocateServiceBU.OffsetAmountLocalCurrency,
+						ITFM4_AllocateServiceBU.WBSDriverValue,
+						ITFM4_AllocateServiceBU.EndDate,
+						ITFM4_AllocateServiceBU.PoolFlowType_Code,
+						ITFM4_AllocateServiceBU.CompanyCode_Code,
+						ITFM4_AllocateServiceBU.WBSElement_Code,
+						ITFM4_AllocateServiceBU.ProjectScenario_Code,
+						ITFM4_AllocateServiceBU.TowerDriverValue,
+						ITFM4_AllocateServiceBU.AccountNumber_Code,
+						ITFM4_AllocateServiceBU.SKUID,
+						ITFM4_AllocateServiceBU.UnitCostMeasure_Code,
+						ITFM4_AllocateServiceBU.CostSubPool_Code,
+						ITFM4_AllocateServiceBU.BillAccountID,
+						ITFM4_AllocateServiceBU.Scenario_Code,
+						ITFM4_AllocateServiceBU.StartDate,
+						ITFM4_AllocateServiceBU.AdjustmentPercentage,
+						ITFM4_AllocateServiceBU.Tower_Code,
+						ITFM4_AllocateServiceBU.CostRelation_Code,
+						ITFM4_AllocateServiceBU.CloudServiceName,
+						ITFM4_AllocateServiceBU.SubTower_Code,
+						ITFM4_AllocateServiceBU.Service_Code,
+						ITFM4_AllocateServiceBU.AmountInLocalCurrency,
+						ITFM4_AllocateServiceBU.Project_Code,
+						ITFM4_AllocateServiceBU.ScenarioType,
+						ITFM4_AllocateServiceBU.AmountInGroupCurrency,
+						ITFM4_AllocateServiceBU.UnitCostMeasureValue,
+						ITFM4_AllocateServiceBU.RowCount,
+						ITFM4_AllocateServiceBU.UnitCostTower,
+						ITFM4_AllocateServiceBU.ServiceDriverValue,
+						ITFM4_AllocateServiceBU.WBSPackage_Code,
+						ITFM4_AllocateServiceBU.AllocationDriver_Code,
+						ITFM4_AllocateServiceBU.BusinessUnit_Code,
+						ITFM4_AllocateServiceBU.BusinessUnitDriverValue
+					FROM z_Ext_ITFM4_AllocateServiceBU AS ITFM4_AllocateServiceBU
+					ORDER BY ITFM4_AllocateServiceBU._ID ASC
+					LIMIT 2)
+				) AS ITFM4_AllocateServiceBU)
+		) AS ITFM4_AllocateServiceBU
+)
+SELECT 
+	_path_ AS "_path_",
+	'{}' AS "_blobs_",
+	'{}' AS "_expands_",
+	(
+		(SELECT 
+			to_char( _createdAt, 'YYYY-MM-DD"T"HH24:MI:SS.FF3"Z"' ) AS "_createdAt",
+			_createdBy AS "_createdBy",
+			to_char( _modifiedAt, 'YYYY-MM-DD"T"HH24:MI:SS.FF3"Z"' ) AS "_modifiedAt",
+			_modifiedBy AS "_modifiedBy",
+			_log_ID AS "_log_ID",
+			_rule_ID AS "_rule_ID",
+			_state AS "_state",
+			_ID AS "_ID",
+			ID AS "ID",
+			to_char( PostingDate, 'YYYY-MM-DD' ) AS "PostingDate",
+			LocalCurrency_Code AS "LocalCurrency_Code",
+			TaxonomyVersion_Code AS "TaxonomyVersion_Code",
+			CostPool_Code AS "CostPool_Code",
+			TO_NVARCHAR(OffsetAmountLocalCurrency) AS "OffsetAmountLocalCurrency",
+			TO_NVARCHAR(WBSDriverValue) AS "WBSDriverValue",
+			to_char( EndDate, 'YYYY-MM-DD' ) AS "EndDate",
+			PoolFlowType_Code AS "PoolFlowType_Code",
+			CompanyCode_Code AS "CompanyCode_Code",
+			WBSElement_Code AS "WBSElement_Code",
+			ProjectScenario_Code AS "ProjectScenario_Code",
+			TO_NVARCHAR(TowerDriverValue) AS "TowerDriverValue",
+			AccountNumber_Code AS "AccountNumber_Code",
+			SKUID AS "SKUID",
+			UnitCostMeasure_Code AS "UnitCostMeasure_Code",
+			CostSubPool_Code AS "CostSubPool_Code",
+			BillAccountID AS "BillAccountID",
+			Scenario_Code AS "Scenario_Code",
+			to_char( StartDate, 'YYYY-MM-DD' ) AS "StartDate",
+			TO_NVARCHAR(AdjustmentPercentage) AS "AdjustmentPercentage",
+			Tower_Code AS "Tower_Code",
+			
+CostRelation_Code AS "CostRelation_Code",
+			CloudServiceName AS "CloudServiceName",
+			SubTower_Code AS "SubTower_Code",
+			Service_Code AS "Service_Code",
+			TO_NVARCHAR( AmountInLocalCurrency, '0.000' ) AS "AmountInLocalCurrency",
+			Project_Code AS "Project_Code",
+			ScenarioType AS "ScenarioType",
+			TO_NVARCHAR( AmountInGroupCurrency, '0.000' ) AS "AmountInGroupCurrency",
+			TO_NVARCHAR(UnitCostMeasureValue) AS "UnitCostMeasureValue",
+			RowCount AS "RowCount",
+			TO_NVARCHAR(UnitCostTower) AS "UnitCostTower",
+			TO_NVARCHAR(ServiceDriverValue) AS "ServiceDriverValue",
+			WBSPackage_Code AS "WBSPackage_Code",
+			AllocationDriver_Code AS "AllocationDriver_Code",
+			BusinessUnit_Code AS "BusinessUnit_Code",
+			TO_NVARCHAR(BusinessUnitDriverValue) AS "BusinessUnitDriverValue"
+		FROM JSON_TABLE( '{}', '$' COLUMNS( "'$$FaKeDuMmYCoLuMn$$'" FOR ORDINALITY ) )
+		FOR JSON ( 'format'='no', 'omitnull'='no', 'arraywrap'='no' ) RETURNS NVARCHAR(2147483647))
+	) AS "_json_"
+FROM ITFM4_AllocateServiceBU;
+<Napi::Connection::exec (74 us)
+--- THREAD 126D183 ---
+>Napi::Connection::executeWork [0x000000014e828a00] (2025-03-13 08:56:39.944819)
+No parameters, so executing SQL directly
+SERVER STATISTICS RESET OF [0x000000012f01b600]
+
+::EXECUTE DIRECT SQLCURS_2 2025-03-13 08:56:39.944936 [0x000000012f01b600]
+AUTCOMMIT   : TRUE
+SQL COMMAND : WITH ITFM4_AllocateServiceBU AS
+(
+	SELECT 
+		*,
+		( '$[' || lpad( "$$RN$$", 6, '0' ) ) AS _path_
+	FROM 
+		(
+			(SELECT 
+				*,
+				ROW_NUMBER() OVER( ORDER BY _ID ASC ) AS "$$RN$$"
+			FROM 
+				(
+					(SELECT 
+						ITFM4_AllocateServiceBU._createdAt,
+						ITFM4_AllocateServiceBU._createdBy,
+						ITFM4_AllocateServiceBU._modifiedAt,
+						ITFM4_AllocateServiceBU._modifiedBy,
+						ITFM4_AllocateServiceBU._log_ID,
+						ITFM4_AllocateServiceBU._rule_ID,
+						ITFM4_AllocateServiceBU._state,
+						ITFM4_AllocateServiceBU._ID,
+						ITFM4_AllocateServiceBU.ID,
+						ITFM4_AllocateServiceBU.PostingDate,
+						ITFM4_AllocateServiceBU.LocalCurrency_Code,
+						ITFM4_AllocateServiceBU.TaxonomyVersion_Code,
+						ITFM4_AllocateServiceBU.CostPool_Code,
+						ITFM4_AllocateServiceBU.OffsetAmountLocalCurrency,
+						ITFM4_AllocateServiceBU.WBSDriverValue,
+						ITFM4_AllocateServiceBU.EndDate,
+						ITFM4_AllocateServiceBU.PoolFlowType_Code,
+						ITFM4_AllocateServiceBU.CompanyCode_Code,
+						ITFM4_AllocateServiceBU.WBSElement_Code,
+						ITFM4_AllocateServiceBU.ProjectScenario_Code,
+						ITFM4_AllocateServiceBU.TowerDriverValue,
+						ITFM4_AllocateServiceBU.AccountNumber_Code,
+						ITFM4_AllocateServiceBU.SKUID,
+						ITFM4_AllocateServiceBU.UnitCostMeasure_Code,
+						ITFM4_AllocateServiceBU.CostSubPool_Code,
+						ITFM4_AllocateServiceBU.BillAccountID,
+						ITFM4_AllocateServiceBU.Scenario_Code,
+						ITFM4_AllocateServiceBU.StartDate,
+						ITFM4_AllocateServiceBU.AdjustmentPercentage,
+						ITFM4_AllocateServiceBU.Tower_Code,
+						ITFM4_AllocateServiceBU.CostRelation_Code,
+						ITFM4_AllocateServiceBU.CloudServiceName,
+						ITFM4_AllocateServiceBU.SubTower_Code,
+						ITFM4_AllocateServiceBU.Service_Code,
+						ITFM4_AllocateServiceBU.AmountInLocalCurrency,
+						ITFM4_AllocateServiceBU.Project_Code,
+						ITFM4_AllocateServiceBU.ScenarioType,
+						ITFM4_AllocateServiceBU.AmountInGroupCurrency,
+						ITFM4_AllocateServiceBU.UnitCostMeasureValue,
+						ITFM4_AllocateServiceBU.RowCount,
+						ITFM4_AllocateServiceBU.UnitCostTower,
+						ITFM4_AllocateServiceBU.ServiceDriverValue,
+						ITFM4_AllocateServiceBU.WBSPackage_Code,
+						ITFM4_AllocateServiceBU.AllocationDriver_Code,
+						ITFM4_AllocateServiceBU.BusinessUnit_Code,
+						ITFM4_AllocateServiceBU.BusinessUnitDriverValue
+					FROM z_Ext_ITFM4_AllocateServiceBU AS ITFM4_AllocateServiceBU
+					ORDER BY ITFM4_AllocateServiceBU._ID ASC
+					LIMIT 2)
+				) AS ITFM4_AllocateServiceBU)
+		) AS ITFM4_AllocateServiceBU
+)
+SELECT 
+	_path_ AS "_path_",
+	'{}' AS "_blobs_",
+	'{}' AS "_expands_",
+	(
+		(SELECT 
+			to_char( _createdAt, 'YYYY-MM-DD"T"HH24:MI:SS.FF3"Z"' ) AS "_createdAt",
+			_createdBy AS "_createdBy",
+			to_char( _modifiedAt, 'YYYY-MM-DD"T"HH
+24:MI:SS.FF3"Z"' ) AS "_modifiedAt",
+			_modifiedBy AS "_modifiedBy",
+			_log_ID AS "_log_ID",
+			_rule_ID AS "_rule_ID",
+			_state AS "_state",
+			_ID AS "_ID",
+			ID AS "ID",
+			to_char( PostingDate, 'YYYY-MM-DD' ) AS "PostingDate",
+			LocalCurrency_Code AS "LocalCurrency_Code",
+			TaxonomyVersion_Code AS "TaxonomyVersion_Code",
+			CostPool_Code AS "CostPool_Code",
+			TO_NVARCHAR(OffsetAmountLocalCurrency) AS "OffsetAmountLocalCurrency",
+			TO_NVARCHAR(WBSDriverValue) AS "WBSDriverValue",
+			to_char( EndDate, 'YYYY-MM-DD' ) AS "EndDate",
+			PoolFlowType_Code AS "PoolFlowType_Code",
+			CompanyCode_Code AS "CompanyCode_Code",
+			WBSElement_Code AS "WBSElement_Code",
+			ProjectScenario_Code AS "ProjectScenario_Code",
+			TO_NVARCHAR(TowerDriverValue) AS "TowerDriverValue",
+			AccountNumber_Code AS "AccountNumber_Code",
+			SKUID AS "SKUID",
+			UnitCostMeasure_Code AS "UnitCostMeasure_Code",
+			CostSubPool_Code AS "CostSubPool_Code",
+			BillAccountID AS "BillAccountID",
+			Scenario_Code AS "Scenario_Code",
+			to_char( StartDate, 'YYYY-MM-DD' ) AS "StartDate",
+			TO_NVARCHAR(AdjustmentPercentage) AS "AdjustmentPercentage",
+			Tower_Code AS "Tower_Code",
+			CostRelation_Code AS "CostRelation_Code",
+			CloudServiceName AS "CloudServiceName",
+			SubTower_Code AS "SubTower_Code",
+			Service_Code AS "Service_Code",
+			TO_NVARCHAR( AmountInLocalCurrency, '0.000' ) AS "AmountInLocalCurrency",
+			Project_Code AS "Project_Code",
+			ScenarioType AS "ScenarioType",
+			TO_NVARCHAR( AmountInGroupCurrency, '0.000' ) AS "AmountInGroupCurrency",
+			TO_NVARCHAR(UnitCostMeasureValue) AS "UnitCostMeasureValue",
+			RowCount AS "RowCount",
+			TO_NVARCHAR(UnitCostTower) AS "UnitCostTower",
+			TO_NVARCHAR(ServiceDriverValue) AS "ServiceDriverValue",
+			WBSPackage_Code AS "WBSPackage_Code",
+			AllocationDriver_Code AS "AllocationDriver_Code",
+			BusinessUnit_Code AS "BusinessUnit_Code",
+			TO_NVARCHAR(BusinessUnitDriverValue) AS "BusinessUnitDriverValue"
+		FROM JSON_TABLE( '{}', '$' COLUMNS( "'$$FaKeDuMmYCoLuMn$$'" FOR ORDINALITY ) )
+		FOR JSON ( 'format'='no', 'omitnull'='no', 'arraywrap'='no' ) RETURNS NVARCHAR(2147483647))
+	) AS "_json_"
+FROM ITFM4_AllocateServiceBU;
+SENDING CURRENT SESSION CONTEXT TO SESSION WITH ID 1266412630279975
+  ANCHOR  CONN IS: 262343 SESSION ID: 1266412630279975
+  PRIMARY CONN IS: 262343 SESSION ID: 1266412630279975
+SESSION CONTEXT BEING SENT TO SERVER IN THE FIRST REQUEST PACKET AFTER ANCHOR CONNECT
+  PHYSICAL CONNECTION - [0x000000014e854600]  [CONNECTED - COORDINATOR]
+  CONNECTED AT        : 2025-03-13 08:56:39.798369
+  LOCATION            : bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com:443 [bb529494-6259-4496-a72e-160160db95e6-10c2f-0.7p4.hna0.prod-eu20.hanacloud.ondemand.com]
+  SERVER CONNECTION ID: 262343
+  CLIENT CONNECTION ID: 2
+  VOLUME ID           : 2
+  SESSION ID          : 1266412630279975
+  LAST SEND TIME      : 2025-03-13 08:56:39.910676
+  LAST RECEIVE TIME   : 2025-03-13 08:56:39.938880
+CONNECTION OBJECT : [0x000000014f023000]
+SEND TIME: 112 USEC, MESSAGE: EXECUTEDIRECT
+RECV TIME: 159871696 USEC
+ Number of diagnostic records: 1; Current 0-based position: 0
+SQL ERROR  : (at position 0)
+  SQLCODE  : 129
+  SQLSTATE : 40000
+  MESSAGE  : transaction rolled back by an internal error: Internal error. Please open a ticket and include the service trace files which cover the time of the query execution.
+TRANSACTION:
+  STATE: NO TRANSACTION
+  PRIMARY: 2
+TRANSACTION ACTION TA_ROLLBACK
+TRANSACTION UPDATED:
+TRANSACTION:
+  STATE: NO TRANSACTION
+  PRIMARY: 2
+SERVER STATISTICS UPDATE OF [0x000000012f01b600]
+  PROCESSING TIME INCREASED TO 159844828 BY 159844828 USEC
+  CPU TIME INCREASED TO 157550261 BY 157550261 USEC
+  PEAK MEMORY USAGE INCREASED TO 6371647584 BY 0 BYTES
+ERROR: [129] transaction rolled back by an internal error: Internal error. Please open a ticket and include the service trace files which cover the time of the query execution. (40000)
+<Napi::Connection::executeWork (159872 ms)
+--- THREAD 126D179 ---
+>Napi::Connection::executeAfter [0x000000014e828a00] (2025-03-13 
+08:59:19.817300)
+
+/Users/payann/Documents/ace/cds8/hana-client-test/node_modules/@sap/hana-client/lib/index.js:53
+        ldb.__runCallbacks();
+            ^
+
+Error: transaction rolled back by an internal error: Internal error. Please open a ticket and include the service trace files which cover the time of the query execution.
+    at Socket.<anonymous> (/Users/payann/Documents/ace/cds8/hana-client-test/node_modules/@sap/hana-client/lib/index.js:53:13)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) {
+  code: 129,
+  sqlState: '40000'
+}
+
+Node.js v20.15.0
